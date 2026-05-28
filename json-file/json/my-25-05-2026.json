@@ -1,0 +1,56 @@
+[
+    {
+        "student_id": "45",
+        "institute_name1": "tdic anei varanasi",
+        "board_name1": "up",
+        "total_marks1": "500",
+        "obtained_marks1": "400",
+        "percentage_marks1": "72",
+        "name1": "vishal patel"
+    },
+    {
+        "student_id": "47",
+        "institute_name1": "tdic anei varanasi",
+        "board_name1": "up",
+        "total_marks1": "500",
+        "obtained_marks1": "400",
+        "percentage_marks1": "72",
+        "name1": "vishal patel"
+    },
+    {
+        "student_id": "48",
+        "institute_name1": "tdic anei varanasi",
+        "board_name1": "up",
+        "total_marks1": "500",
+        "obtained_marks1": "400",
+        "percentage_marks1": "72",
+        "name1": "vishal patel"
+    },
+    {
+        "student_id": "49",
+        "institute_name1": "tdic anei varanasi",
+        "board_name1": "up",
+        "total_marks1": "500",
+        "obtained_marks1": "400",
+        "percentage_marks1": "72",
+        "name1": "vishal patel"
+    },
+    {
+        "student_id": "51",
+        "institute_name1": "tdic anei varanasi",
+        "board_name1": "up",
+        "total_marks1": "500",
+        "obtained_marks1": "400",
+        "percentage_marks1": "72",
+        "name1": "Geeta Verma "
+    },
+    {
+        "student_id": "53",
+        "institute_name1": "tdic anei varanasi",
+        "board_name1": "up board",
+        "total_marks1": "500",
+        "obtained_marks1": "400",
+        "percentage_marks1": "92",
+        "name1": "Sony Verma"
+    }
+]
