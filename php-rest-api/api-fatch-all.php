@@ -1,25 +1,30 @@
 <?php
 
+
+
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
-$Conn = mysqli_connect("localhost","root","","kashiit") or die("connection fails..");
+$conn = mysqli_connect("localhost","root","","kashiit")
+        or die("Connection Failed");
 
 $sql = "SELECT * FROM student";
 
-$result = mysqli_query($Conn,$sql);
+$result = mysqli_query($conn,$sql);
 
 if(mysqli_num_rows($result) > 0){
-    $output = mysqli_fetch_all($result);
+
+    $output = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
     echo json_encode($output);
-}
-else {
+
+}else{
+
     echo json_encode([
         "status" => false,
-        "message" => "no record found"
+        "message" => "No Record Found"
     ]);
 }
-
 
 
 
