@@ -234,6 +234,7 @@
             $conn = mysqli_connect("localhost", "root", "", "php_crud") or die("connection faild");
             $sql = "SELECT * FROM Students";
             $result = mysqli_query($conn, $sql) or die("query unsecces");
+            
             if (mysqli_num_rows($result) > 0) {
             ?>
                 <table>

@@ -23,7 +23,7 @@ WHERE id = {$id} ";
 if(mysqli_query($Conn,$sql)){
     echo json_encode([
         "status" => True,
-        "message" => "Record Added Successfully.."
+        "message" => "Record update Successfully.."
     ]);
 }
 else {
