@@ -16,20 +16,20 @@ trait patel{
 }
 
 class A{
-    use vishal,patel;
+    use vishal;
 }
-// class B{
-//     use patel;
-// }
+class B{
+    use patel;
+}
 
 $test1 = new A();
-// $test2 = new B();
+$test2 = new B();
 
 $test1 -> firstName();
 echo " ";
 $test1 -> lastName();
 echo "<br>";
-$test1 -> about();
+$test2 -> about();
 
 
 ?>
